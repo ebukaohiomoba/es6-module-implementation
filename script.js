@@ -25,4 +25,18 @@ class Manager extends Employee {
 }
 
 /* Problem Number 3 */
+const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'];
 const [fin,est,sw,den,nor] = countries;
+
+/* Problem Number 4 */
+const rectangle = {
+    width: 20,
+    height: 10,
+    area: 200,
+    perimeter: 60
+}
+myRectangle(rectangle);
+function myRectangle({width, height, area, perimeter}){
+    const mysamplerectangle = "My rectangle has width " + width + "and its height is " + height + "which means that it's area is " + area + "and its perimeter is " + perimeter + "."
+    return mysamplerectangle;
+;}
