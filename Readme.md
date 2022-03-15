@@ -28,7 +28,9 @@
 
 Any methods created for the classes above need NOT operate fully but MUST be formatted correctly and require appropriate parameters. 
 
-## 3. const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'] Destructure and assign the elements of countries array to fin, est, sw, den, nor 
+## 3. Destructure and assign the elements of countries array to fin, est, sw, den, nor 
+
+const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'] 
 
 ## 4. const rectangle = { 
 
