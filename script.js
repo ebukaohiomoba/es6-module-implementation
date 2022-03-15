@@ -43,5 +43,11 @@ function myRectangle({width, height, area, perimeter}){
 
 /* Problem Number 5 */
 const evens = [0,2,4,6,8,10];
+document.getElementById('evenarray').innerText = evens
 const odds = [1,3,5,7,9];
+document.getElementById('oddarray').innerText = odds
 const numlist = [...evens,...odds];
+const newarray = numlist.map(x => x);
+document.getElementById('newarray').innerText = newarray
+const sortedarray = newarray.sort((a,b)=> a-b)
+document.getElementById('sortedarray').innerText = sortedarray
