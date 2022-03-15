@@ -42,3 +42,6 @@ function myRectangle({width, height, area, perimeter}){
 ;}
 
 /* Problem Number 5 */
+const evens = [0,2,4,6,8,10];
+const odds = [1,3,5,7,9];
+const numlist = [...evens,...odds];
