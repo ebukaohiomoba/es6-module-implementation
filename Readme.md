@@ -1,6 +1,6 @@
-#ES6 Assignment 
+# ES6 Assignment 
 
-##1. Create an Employee class. 
+## 1. Create an Employee class. 
 
 ● An employee should have 
 
@@ -10,7 +10,7 @@
 
 ○ List of permissions that they can perform on the company website ○ Store number for the store where they work 
 
-##2. Create a Manager class. 
+## 2. Create a Manager class. 
 
 ● A manager is a type of employee. 
 
@@ -28,9 +28,9 @@
 
 Any methods created for the classes above need NOT operate fully but MUST be formatted correctly and require appropriate parameters. 
 
-##3. const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'] Destructure and assign the elements of countries array to fin, est, sw, den, nor 
+## 3. const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'] Destructure and assign the elements of countries array to fin, est, sw, den, nor 
 
-##4. const rectangle = { 
+## 4. const rectangle = { 
 
 width: 20, 
 
@@ -44,7 +44,7 @@ perimeter: 60
 
 Destructure the rectangle object by its properties. 
 
-##5. const evens = [0, 2, 4, 6, 8, 10] 
+## 5. const evens = [0, 2, 4, 6, 8, 10] 
 
 const odds = [1, 3, 5, 7, 9] 
 
