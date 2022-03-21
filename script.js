@@ -1,19 +1,21 @@
 
 /* Problem Number 1 */
 class Employee {
-    constructor(employeename, employeeid, employeepermissions, storenumber){
+    constructor(employeename, employeeid, employeepermissions, storenumber, employeetype){
         this.employeename = employeename;
         this.employeeid = employeeid;
         this.permissions = employeepermissions;
         this.storenumber = storenumber;
+        this.employeetype = employeetype;
     }
 }
 
 
 /* Problem Number 2 */
 class Manager extends Employee {
-    constructor(employeename, employeeid, employeepermissions, storenumber, employeelist,){
+    constructor(employeename, employeeid, employeepermissions, storenumber,employeetype){
         super(employeename,employeeid,employeepermissions,storenumber);
+        this.employeetype = "Manager";
         this.employeesmanaged = [];
             addnewemployee = function (employeename){
                 this.employeesmanaged.push(employeename);
